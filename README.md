@@ -5,9 +5,9 @@
 2. Create a load balancer in the datacenter of your VPC.
 3. Add your droplets to your load balancer.
 3. Create a firewall allowing SSH, and HTTP on port 80 for your load balancer.
-[rules](images/rules.png)
+![rules](images/rules.png)
 4. Add your 2 droplets to the firewall.
-[firewall](images/firewall.png)
+![firewall](images/firewall.png)
 
 ## Install Caddy
 1. Download caddy `tar xvf https://github.com/caddyserver/caddy/releases/download/v2.6.2/caddy_2.6.2_linux_amd64.tar.gz`.
@@ -31,4 +31,4 @@
 
 ## End
 You should now have load balanced servers!
-[done](images/done.png)
+![done](images/done.png)
