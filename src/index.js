@@ -1,7 +1,7 @@
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true })
 
-const PORT = process.env.PORT || 3000;
+const PORT = 5050;
 const ID = process.env.SERVER_ID || "none";
 
 // Declare a route
