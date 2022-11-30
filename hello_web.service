@@ -1,0 +1,12 @@
+[Unit]
+Description=Starts the node api server.
+After=network-online.target
+
+[Service]
+Type=notify
+ExexStart=node /opt/node/index.js
+Restart=failure
+
+[Install]
+WantedBy=multi-user.target
+
