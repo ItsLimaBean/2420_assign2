@@ -5,7 +5,7 @@ const PORT = 5050;
 const ID = process.env.SERVER_ID || "none";
 
 // Declare a route
-fastify.get('/', async (request, reply) => {
+fastify.get('/api', async (request, reply) => {
   return "hello from " + ID;
 })
 
