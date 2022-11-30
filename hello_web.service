@@ -4,8 +4,8 @@ After=network-online.target
 
 [Service]
 Type=notify
-ExecStart=node /opt/node/index.js
-Restart=failure
+ExecStart=/root/.volta/bin/node /opt/node/index.js
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
