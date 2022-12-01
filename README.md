@@ -1,5 +1,7 @@
 # 2420 Assignment 2
 
+24.199.69.152
+
 ## Setting up Digital Ocean
 1. Create a VPC in the datacenter your Droplets exist in.
 2. Create a load balancer in the datacenter of your VPC.
